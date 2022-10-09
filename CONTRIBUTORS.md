@@ -1,3 +1,4 @@
 # Contributors:
 
-1. [Name](https://github.com/github profile url)
+1. [Ranodeep Banerjee](https://github.com/ranodeepbanerjee)
+2. [Subhojeet Das](https://github.com/subhojeetdas1107)
