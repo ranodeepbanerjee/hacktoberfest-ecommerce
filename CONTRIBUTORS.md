@@ -5,3 +5,4 @@
 3. [Akash Kotal](https://github.com/sky01green)
 4. [Souvik Banerjee](https://github.com/Souvik2376)
 5. [Rajdeep Ghosh](https://github.com/rumbleftw)
+6. [Swagata Das](https://github.com/SwagataDas123)
