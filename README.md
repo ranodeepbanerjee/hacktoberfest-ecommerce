@@ -33,6 +33,7 @@ Please read [CONTRIBUTING.md](/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](/CODE_O
 ### Rules
 
 * Read the [CONTRIBUTING.md](/CONTRIBUTING.md) file.
+* Star the Repository.
 * Respect people.
 * Be friendly, helpful, and patient.
 * You can contribute in any way.
