@@ -1,9 +1,9 @@
-
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { useState } from "react";
 import styled from "styled-components";
 import { sliderItems } from "../data";
 import { mobile } from "../responsive";
+// import Button from '@mui/material/Button';
 
 const Container = styled.div`
   width: 100%;
@@ -78,8 +78,13 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  :hover {
+    border: 3px solid #ff7a59;
+  color: #ff7a59;
+  background: #fff;
+ }
+}
 `;
-
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);
   const handleClick = (direction) => {
