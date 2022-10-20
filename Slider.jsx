@@ -6,7 +6,7 @@ import { mobile } from "../responsive";
 // import Button from "@mui/material/Button";
 
 const Container = styled.div`
-  width: 100%;
+  width: 96%;
   height: 100vh;
   display: flex;
   position: relative;
@@ -15,10 +15,10 @@ const Container = styled.div`
 `;
 
 const Arrow = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 78px;
   background-color: #fff7f7;
-  border-radius: 50%;
+  border-radius: 58%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,20 +59,19 @@ const Image = styled.img`
 
 const InfoContainer = styled.div`
   flex: 1;
-  padding: 50px;
+  padding: 52px;
 `;
 
 const Title = styled.h1`
-  font-size: 70px;
+  font-size: 72px;
 `;
 
 const Desc = styled.p`
   margin: 50px 0px;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 500;
   letter-spacing: 3px;
 `;
-
 const Button = styled.button`
   padding: 10px;
   font-size: 20px;
