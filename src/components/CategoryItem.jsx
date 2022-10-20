@@ -30,6 +30,9 @@ const Info = styled.div`
 const Title = styled.h1`
     color:white;
     margin-bottom: 20px;
+    background-color:black;
+    opacity:0.6;
+    padding:5px
 `;
 
 const Button = styled.button`

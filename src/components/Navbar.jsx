@@ -63,6 +63,12 @@ const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
+  :hover{
+    background-color: teal;
+    padding:10px;
+    color:white;
+    border-radius: 10%;
+  }
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
