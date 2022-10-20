@@ -5,6 +5,12 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0;
+  z-index: 10; 
+  background: white;
   height: 60px;
   ${mobile({ height: "50px" })}
 `;
@@ -26,6 +32,12 @@ const Left = styled.div`
 const Language = styled.span`
   font-size: 14px;
   cursor: pointer;
+  :hover{
+    background-color: teal;
+    padding: 7px;
+    color:white;
+    border-radius: 5px;
+  }
   ${mobile({ display: "none" })}
 `;
 
@@ -39,6 +51,7 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
   border: none;
+  outline: none;
   ${mobile({ width: "50px" })}
 `;
 
@@ -65,9 +78,9 @@ const MenuItem = styled.div`
   margin-left: 25px;
   :hover{
     background-color: teal;
-    padding:10px;
-    color:white;
-    border-radius: 10%;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
   }
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;

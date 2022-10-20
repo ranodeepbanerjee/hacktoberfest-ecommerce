@@ -11,13 +11,15 @@ const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
+  margin-top: 50px;
   ${mobile({ display: "none" })}
 `;
 
 const Arrow = styled.div`
   width: 50px;
   height: 50px;
-  background-color: #fff7f7;
+  background-color: teal;
+  color: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -29,7 +31,7 @@ const Arrow = styled.div`
   right: ${(props) => props.direction === "right" && "10px"};
   margin: auto;
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: 2;
 `;
 
@@ -79,9 +81,9 @@ const Button = styled.button`
   background-color: transparent;
   cursor: pointer;
   :hover {
-    border: 3px solid #ff7a59;
-  color: #ff7a59;
-  background: #fff;
+    border: solid teal;
+    color: teal;
+    background: #fff;
  }
 }
 `;
