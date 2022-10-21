@@ -28,20 +28,24 @@ const Info = styled.div`
 `;
 
 const Title = styled.h1`
-    color:white;
-    margin-bottom: 20px;
-    background-color:black;
-    opacity:0.6;
-    padding:5px
+  color: white;
+  margin-bottom: 20px;
+  background-color: black;
+  opacity: 0.6;
+  padding: 5px;
 `;
 
 const Button = styled.button`
-    border:none;
-    padding: 10px;
-    background-color: white;
-    color:gray;
-    cursor: pointer;
-    font-weight: 600;
+  padding: 10px;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  font-weight: 600;
+  :hover {
+    border: 3px solid #ff7a59;
+    color: #ff7a59;
+    background: #fff;
+  }
 `;
 
 const CategoryItem = ({ item }) => {
