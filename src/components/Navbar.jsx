@@ -6,11 +6,17 @@ import { mobile } from "../responsive";
 
 const Container = styled.div`
   height: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
   ${mobile({ height: "50px" })}
 `;
 
 const Wrapper = styled.div`
-  padding: 10px 20px;
+  padding: 10px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -62,13 +68,19 @@ const Right = styled.div`
 const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
-  margin-left: 25px;
-  :hover{
+  margin: 0 25px;
+  // padding-right: 25px;
+  text-align: center;
+  :hover {
     background-color: teal;
-    padding:10px;
-    color:white;
+    padding: 10px;
+    color: white;
     border-radius: 10%;
+    -webkit-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.17);
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.17);
   }
+  transition: all 0.4s;
+
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
