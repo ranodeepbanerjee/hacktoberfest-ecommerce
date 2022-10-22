@@ -42,6 +42,7 @@ import {
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    cursor: pointer ; 
   `;
   
   const Center = styled.div`
@@ -65,6 +66,11 @@ import {
   const ListItem = styled.li`
     width: 50%;
     margin-bottom: 10px;
+    cursor : pointer ; 
+    :hover{
+      text-decoration : underline ; 
+      color : green ; 
+    }
   `;
   
   const Right = styled.div`
@@ -77,10 +83,17 @@ import {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    cursor: pointer ; 
+    :hover{
+      text-decoration : underline ; 
+      color : green ; 
+    }
+
   `;
   
   const Payment = styled.img`
       width: 50%;
+      cursor : pointer ; 
   `;
   
   const Footer = () => {

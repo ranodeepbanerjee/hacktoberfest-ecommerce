@@ -42,6 +42,17 @@ const Button = styled.button`
     color:gray;
     cursor: pointer;
     font-weight: 600;
+    :hover {
+      background-color: teal;
+      padding: 10px;
+      color: white;
+      border-radius: 10%;
+      -webkit-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.17);
+      box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.17);
+      
+    }
+    transition: all 0.4s;
+
 `;
 
 const CategoryItem = ({ item }) => {

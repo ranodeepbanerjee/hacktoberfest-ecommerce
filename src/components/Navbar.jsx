@@ -41,10 +41,13 @@ const SearchContainer = styled.div`
   align-items: center;
   margin-left: 25px;
   padding: 5px;
+  box-shadow : -2px 2px grey; 
 `;
 
 const Input = styled.input`
   border: none;
+  outline: none ; 
+  
   ${mobile({ width: "50px" })}
 `;
 
