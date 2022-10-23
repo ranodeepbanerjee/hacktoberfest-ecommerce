@@ -29,6 +29,7 @@ const InputContainer = styled.div`
   display: flex;
   justify-content: space-between;
   border: 1px solid lightgray;
+  box-shadow : -2px 2px grey; 
   ${mobile({ width: "80%" })}
 `;
 
@@ -45,6 +46,9 @@ const Button = styled.button`
   border: none;
   background-color: teal;
   color: white;
+  :hover{
+    cursor: pointer ; 
+  }
 `;
 
 const Newsletter = () => {

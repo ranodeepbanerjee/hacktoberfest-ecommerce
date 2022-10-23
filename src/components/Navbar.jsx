@@ -12,11 +12,17 @@ const Container = styled.div`
   z-index: 10; 
   background: white;
   height: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
   ${mobile({ height: "50px" })}
 `;
 
 const Wrapper = styled.div`
-  padding: 10px 20px;
+  padding: 10px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,6 +53,7 @@ const SearchContainer = styled.div`
   align-items: center;
   margin-left: 25px;
   padding: 5px;
+  box-shadow : -2px 2px grey; 
 `;
 
 const Input = styled.input`
