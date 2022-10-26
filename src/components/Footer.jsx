@@ -12,6 +12,8 @@ import {
   
   const Container = styled.div`
     display: flex;
+    background-color: teal;
+    padding: 10px 0px;
     ${mobile({ flexDirection: "column" })}
   `;
   
@@ -42,7 +44,7 @@ import {
     align-items: center;
     justify-content: center;
     margin-right: 20px;
-    cursor: pointer ; 
+    cursor: pointer;
   `;
   
   const Center = styled.div`
@@ -66,11 +68,10 @@ import {
   const ListItem = styled.li`
     width: 50%;
     margin-bottom: 10px;
-    cursor : pointer ; 
-    :hover{
-      text-decoration : underline ; 
-      color : green ; 
-    }
+    cursor: pointer;
+    :hover {
+      text-decoration: underline;
+   }
   `;
   
   const Right = styled.div`

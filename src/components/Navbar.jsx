@@ -5,6 +5,12 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0;
+  z-index: 10; 
+  background: white;
   height: 60px;
   position: -webkit-sticky;
   position: sticky;
@@ -32,6 +38,12 @@ const Left = styled.div`
 const Language = styled.span`
   font-size: 14px;
   cursor: pointer;
+  :hover{
+    background-color: teal;
+    padding: 7px;
+    color:white;
+    border-radius: 5px;
+  }
   ${mobile({ display: "none" })}
 `;
 
@@ -46,8 +58,7 @@ const SearchContainer = styled.div`
 
 const Input = styled.input`
   border: none;
-  outline: none ; 
-  
+  outline: none;
   ${mobile({ width: "50px" })}
 `;
 
@@ -71,19 +82,13 @@ const Right = styled.div`
 const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
-  margin: 0 25px;
-  // padding-right: 25px;
-  text-align: center;
-  :hover {
+  margin-left: 25px;
+  :hover{
     background-color: teal;
-    padding: 10px;
+    padding: 8px;
     color: white;
-    border-radius: 10%;
-    -webkit-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.17);
-    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
   }
-  transition: all 0.4s;
-
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
