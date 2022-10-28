@@ -79,9 +79,10 @@ const Button = styled.button`
   background-color: transparent;
   cursor: pointer;
   :hover {
-    border: 3px solid #ff7a59;
-  color: #ff7a59;
-  background: #fff;
+    ${'' /* border: 3px solid #ff7a59; */}
+    color: white;
+    background-color: black;
+    transition: 0.5s ease;
  }
 }
 `;
