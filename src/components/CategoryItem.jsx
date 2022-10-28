@@ -12,7 +12,8 @@ const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  ${mobile({ height: "20vh" })}
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0);
+  ${mobile({ height: "20vh" })} 
 `;
 
 const Info = styled.div`
@@ -30,8 +31,17 @@ const Info = styled.div`
 const Title = styled.h1`
     color:white;
     margin-bottom: 20px;
-    background-color:black;
-    opacity:0.6;
+    font-size: 40px;
+    color: white;
+    font-size: 50px;
+    ${'' /* -webkit-text-stroke-width: 1px; */}
+    -webkit-text-stroke-color: black;
+    text-shadow: 0 0 3px #000, 0 0 100px #000;
+    ${'' /* background-color:; */}
+    border-radius: 10px;
+    ${'' /* opacity:0.5; */}
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.17);
+    border: 10px;
     padding:5px
 `;
 
